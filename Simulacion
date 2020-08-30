@@ -33,7 +33,7 @@ def add_ball(space):
 
 def main():
     pygame.init()
-    screen = pygame.display.set_mode((0,0)), # pygame.FULLSCREEN)
+    screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN) # pygame.FULLSCREEN)
     pygame.display.set_caption("BlueYonder challenge")
     clock = pygame.time.Clock()
 
